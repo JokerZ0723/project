@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<!-- <text>云开发--云数据库</text>
+<button bindtap='insert'>添加数据</button>
+<button bindtap='select'>查询数据</button>
+<view>云开发--云存储</view>
+<button bindtap='upload'>上传图片</button> -->
+<view class='profile'>
+  <view class='profile-img'>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view>
+    <open-data type="userNickName" class="profile-name"></open-data>
+  </view>
+</view>
+<van-button open-type='getUserInfo' bindgetuserinfo='onGetUserInfo' type='info' size='large'>获取用户信息</van-button>

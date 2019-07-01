@@ -1,0 +1,7 @@
+<!--pages/mymovie/mymovie.wxml-->
+<view class='movielist'></view>
+<view class='upload'>
+  <van-field value="{{content}}" placeholder="写下你的想法" bind:change="onContentChange"></van-field>
+  <van-button type='primary' size='large' bindtap='upload'>上传图片</van-button>
+  <van-button type='info' size='large' bindtap='upload'>提交</van-button>
+</view>

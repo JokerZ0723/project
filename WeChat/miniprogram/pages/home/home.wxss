@@ -1,0 +1,39 @@
+/* pages/home/home.wxss */
+.movie{
+  border-bottom: 2px solid #ccc;
+  margin: 20px;
+  display: flex;
+  padding-bottom: 10px;
+}
+.movie-img{
+  width: 200rpx;
+  height: 300rpx;
+  margin-right: 50px;
+  border-radius: 5px;
+  /* display: flex; */
+}
+.year{
+  margin-bottom: 10px;
+}
+.movie-info{
+  flex: 1;
+  font-size: 28rpx;
+  line-height: 1.8;/*行高 */
+}
+.movie-title{
+  color: #666;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+
+.score{
+  color: #faaf00;
+}
+.actor{
+  height: 20px;
+  overflow: hidden;
+}
+/*
+.actor{
+  margin: 10px;
+} */
