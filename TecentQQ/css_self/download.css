@@ -1,0 +1,46 @@
+.header{
+    background:url(../img/download/timr2.jpg) no-repeat center center ;
+    background-size: cover;
+    height: 555px;
+}
+a{
+    color: black;
+    font-size: 18px;
+}
+.nav-link:hover, .nav-link:focus {
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: #12b7f5;
+}
+a.text-style{
+    font-size: 16px;
+}
+a.text-style:hover{
+    color: #12B7F5;
+    background-color: transparent;
+}
+.btn{
+    line-height: 1;
+    width: 70px;
+    height: 40px;
+}
+.btn:focus, .btn.focus {
+    box-shadow:none;
+}
+@media screen and (min-width: 992px){
+    iframe{
+        height: 610px;
+    }
+}
+@media screen and (min-width:592px) and (max-width:991px){
+    iframe{
+        height: 610px;
+    }
+}
+@media screen and (max-width:592px){
+    iframe{
+        height: 1310px;
+    }
+}

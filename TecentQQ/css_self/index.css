@@ -1,0 +1,161 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background:url(../img/index/pcqq_bg.jpg) no-repeat center center ;
+    height: 555px;
+    overflow: hidden;
+}
+a{
+    color: black!important;
+    font-size: 18px;
+}
+.nav-link:hover, .nav-link:focus {
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: #12b7f5;
+}
+a.text-style{
+    color: white;
+    font-size: 16px;
+}
+a.text-style:hover{
+    color: #12B7F5 !important;
+    background-color: transparent;
+}
+.btn{
+    line-height: 1;
+    width: 70px;
+    height: 40px;
+}
+.btn:focus, .btn.focus {
+    box-shadow:none;
+}
+.btn{
+    line-height: 1;
+    width: 70px;
+    height: 40px;
+}
+.btn:focus, .btn.focus {
+    box-shadow:none;
+}
+.tim-img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.text-bg{
+    width: 100%;
+    height: 0px;
+    padding-top:385px;
+    overflow: hidden;
+    background: white;
+    background: url("../img/index/brand.png") no-repeat center top;
+}
+.firbg{
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+    background: url("../img/index/bg1_1600.jpg") no-repeat center center;
+}
+.firbg-height{
+    height: 700px;
+}
+.secbg{
+    width: 100%;
+    height: 1000px;
+    background-attachment: fixed;
+    background:transparent url("../img/index/bg2_1600.jpg") no-repeat center center;
+}
+.qqcall{
+    background: transparent url("../img/index/pic1.png") no-repeat 0 0 ;
+    height: 763px;
+}
+.qqfile{
+    background: transparent url("../img/index/pic2.png");
+    height: 330px;
+    overflow: visible;
+}
+.margin{
+    margin-top: -180px !important;
+}
+.qqcall-text{
+    margin-top: 100px;
+    text-align: right;
+}
+.qqcall-text p{
+    font-size: 18px;
+    color: #545b62;
+}
+a{
+     font-size: 18px;
+     color:#12B7F5 ;
+     text-decoration: none !important;
+ }
+.div-height{
+    height: 700px;
+    padding-top: 150px;
+}
+.thibg{
+    width: 100%;
+    height: 1000px;
+    background-attachment: fixed;
+    background:transparent url("../img/index/bg3_1600.jpg") no-repeat center center;
+}
+.qqblog{
+    background: transparent url("../img/index/pic3.png")no-repeat center center;
+    height: 506px;
+}
+.mt-blog{
+    margin-top: 130px;
+}
+.qqblog-text{
+    text-align: right;
+}
+.blo-pic-padding{
+    padding-top: 270px;
+}
+#p1,#p2,#p3{
+    transition: 0.4s linear;
+}
+#p1:hover,#p2:hover,#p3:hover{
+    transform: scale(1.1);
+}
+@media screen and (min-width: 992px){
+    iframe{
+        height: 610px;
+    }
+}
+@media screen and (min-width:592px) and (max-width:991px){
+    iframe{
+        height: 610px;
+    }
+}
+@media screen and (max-width:592px){
+    iframe{
+        height: 1310px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
