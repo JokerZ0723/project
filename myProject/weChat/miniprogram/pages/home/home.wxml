@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<view class='movie' wx:for="{{pics}}" wx:key="index">
+  <!-- 电影图片 -->
+  <image class='movie-img' src='{{item.images.small}}'></image><!--{{item.images.small}}-->
+  <!-- 电影介绍 -->
+  <view class='movie-info'>
+    <!-- 电影标题 -->
+    <view class='movie-title'>{{item.title}}</view>
+    <!-- 观众评分 -->
+    <view class='score'>观众评分
+      <text class='movie-score'>{{item.rating.average}}</text>
+    </view>
+    <!-- 主演 -->
+    <view class='actor'>主演：
+      <text wx:for="{{item.casts}}" wx:key="index">{{item.name}} </text>
+    </view>
+    <!-- 年份 -->
+    <view class='year'>年份：{{item.year}}</view>
+    <!-- 详情按钮 -->
+    <van-button type="info" size='small' bindtap='detail' data-movieid="{{item.id}}">详情</van-button>
+  </view>
+
+</view>

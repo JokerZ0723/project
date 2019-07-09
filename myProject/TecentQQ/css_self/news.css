@@ -1,0 +1,86 @@
+.header{
+    background:url(../img/news/header_bg.png) no-repeat center center ;
+    height: 555px;
+}
+a{
+     color: black;
+     font-size: 18px;
+ }
+.nav-link:hover, .nav-link:focus {
+    color: black;
+    text-decoration: none;
+}
+a.text-style{
+     color: black;
+     font-size: 16px;
+ }
+a.text-style:hover{
+    color: #12B7F5;
+    background-color: transparent;
+}
+.btn{
+     line-height: 1;
+     width: 70px;
+     height: 40px;
+ }
+.btn:focus, .btn.focus {
+    box-shadow:none;
+}
+.container ul{
+    border: 1px solid #eeeeee;
+}
+.container li{
+    border-bottom: 1px solid #eeeeee;
+    list-style: none;
+}
+.container li:hover{
+    background-color: #f3f3f3;
+}
+.container li a{
+    text-decoration: none;
+}
+.container li a .date{
+    float: left;
+    font-size: 12px;
+}
+.container li a .source{
+    float: right;
+    font-size: 12px;
+}
+.container li a .title{
+    display: block;
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+    text-align: center;
+    overflow: hidden;
+}
+.container li a .title:hover{
+    color:#12B7F5 !important;
+}
+a:hover{
+    color: black;
+}
+.container li h6{
+    clear: both;
+    font-size: 14px;
+    font-family: Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", STXihei, STHeiti, Heiti, SimSun, sans-serif;
+}
+.my-header{
+    overflow: hidden;
+}
+@media screen and (min-width: 992px){
+    iframe{
+        height: 610px;
+    }
+}
+@media screen and (min-width:592px) and (max-width:991px){
+    iframe{
+        height: 610px;
+    }
+}
+@media screen and (max-width:592px){
+    iframe{
+        height: 1310px;
+    }
+}
